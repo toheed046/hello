@@ -12,4 +12,7 @@ public class Hello {
 		return message;
 	}
 	
+	public String toString() {
+		return message;
+	}
 }
