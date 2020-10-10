@@ -12,4 +12,8 @@ public class Test {
 	private static int getRandomNumber() {
 		return new Random().nextInt();
 	}
+	
+	static {
+		System.out.println("Class loader");
+	}
 }
